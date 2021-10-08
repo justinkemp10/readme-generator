@@ -1,10 +1,10 @@
 const licenseMap = {
   'Apache': {
-    badgeName: 'Apache 202.0-blue',
+    badgeName: 'Apache%202.0-blue',
     licenseLink: "https://opensource.org/licenses/Apache-2.0" 
   },
   "BSD 3": {
-    badgeName: 'BSD 203--Clause-blue',
+    badgeName: 'BSD%203--Clause-blue',
     licenseLink: "https://opensource.org/licenses/BSD-3-Clause"
   },
   "MIT": {
@@ -36,40 +36,44 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  console.log('In GenerateMarkdown:', data);
   let licenseLink = renderLicenseLink(data.license);
   let licenseBadge = renderLicenseBadge(data.license);
   let licenseSection = renderLicenseSection(data.license);
   return `
 ${licenseBadge}
 
-# Title:
-
-${data.title}
-
-# Description:
+# ${data.title}
 
 ${data.description}
 
-# Installation Instructions:
+
+## Installation Instructions:
 
 ${data.installInstructions}
 
-# Usage Information:
+## Usage Information:
 
-${data.lnkUrl}
+${data.usageInformation}
 
-# Contribution Guidelines:
+## Contribution Guidelines:
 
-${data.gitUrl}
+${data.guidelines}
 
-# License:
+## Test Instructions:
+
+${data.testInstructions}
+
+## License:
 
 ${licenseSection}
+<br>
 ${licenseLink}
 
-# Questions:
+## Questions:
 
 ${data.github}
+<br>
 ${data.email}`;
 }
 
