@@ -1,34 +1,35 @@
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# asfgs
+# README Generator
 
-sdfasd
+A node application that creates a professional readme file.
 
 
 ## Installation Instructions:
 
-fasdf
+Node.js, Javascript
 
 ## Usage Information:
 
-sadf
+Usage----
 
 ## Contribution Guidelines:
 
-sdf
+NA-------
 
 ## Test Instructions:
 
-dsf
+NA-------
 
 ## License:
 
-This application is covered under Apache.
-https://opensource.org/licenses/Apache-2.0
+This application is covered under MIT.
+<br>
+https://opensource.org/licenses/MIT
 
 ## Questions:
 
-sdf
+justinkemp10
 <br>
-sdf
+jkemp@huskers.unl.edu
