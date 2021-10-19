@@ -12,7 +12,7 @@ Create a command-line application that dynamically generates a professional READ
 6. When I click on the links in the table of contents, then I am taken to the corresponding section of the README.
 
 
-![README Generator Preview](./Develop/readme_generator_screenshot.png)
+Here is a link to the walkthrough video: [Walkthrough Video](https://youtu.be/puL_zrjOFnA)
 
 
 Here is a link to the application repository: [README Generator](https://github.com/justinkemp10/readme-generator)
